@@ -1,0 +1,22 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 768px)
+.main-container {
+    height: auto;
+}
+ main-container{
+    height: 800px;
+    background-image: url(../img/hero-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.main {
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
